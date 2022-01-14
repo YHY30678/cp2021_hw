@@ -179,7 +179,7 @@ function doSave(storage_id, filename){
 <script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
 </p>
-<p><button id="add1to100">without button</button><button id="p261">with button</button><button id="hw3_auto">button for auto snake</button><button id="hw3_man control">button for man control snake</button></p>
+<p><button id="add1to100">auto</button><button id="p261">no auto</button><button id="rocflag">button for auto snake</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -269,16 +269,11 @@ p261_url = "https://gist.githubusercontent.com/YHY30678/ed0b740d8ba83d454a976497
 p261 = button2(p261_url)
 doc["p261"].bind('click', p261.do)
 ################################## p261 end
-################################## hw3-auto start
-hw3_auto_url = https://gist.githubusercontent.com/YHY30678/429f056ae4e53d500adc85fb8d89c75f/raw/d095c5a3f8bf6628e36c156ed4d41e1af2459cf9/auto%2520snake.py"
-hw3_auto = button2(hw3_auto_url)
-doc["hw3_auto"].bind("click", hw3_auto.do)
-##################################hw3_auto end
-################################## hw3_man control start
-hw3_man control_url = https://gist.githubusercontent.com/YHY30678/676092fdc380b3e045ed0a0d6e201582/raw/30f4df06658a5efa3a6ead8635cb56571a88eba2/man%2520control%2520snake.py"
-hw3-man control = button2(hw3-man control_url)
-doc["hw3_man control"].bind('click', hw3_man control.do)
-################################## hw3-man contro end
+################################## rocflag start
+rocflag_url = "https://gist.githubusercontent.com/YHY30678/429f056ae4e53d500adc85fb8d89c75f/raw/d095c5a3f8bf6628e36c156ed4d41e1af2459cf9/auto%2520snake.py"
+rocflag = button2(rocflag_url)
+doc["rocflag"].bind("click", rocflag.do)
+################################## rocflag end
 </script>
 </p><br />HW1 << <a href='HW1.html'>Previous</a> <a href='type.html'>Next</a> >> type</div>
         
