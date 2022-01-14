@@ -47,7 +47,7 @@ function doSave(storage_id, filename){
 <script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
 </p>
-<p><button id="add1to100">without button</button><button id="p261">with button</button><button id="hw3-auto">button for auto</button></p>
+<p><button id="add1to100">without button</button><button id="p261">with button</button><button id="hw3-auto">button for auto snake</button><button id="hw3-man control">button for man control snake</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -137,11 +137,16 @@ p261_url = "https://gist.githubusercontent.com/YHY30678/ed0b740d8ba83d454a976497
 p261 = button2(p261_url)
 doc["p261"].bind('click', p261.do)
 ################################## p261 end
-################################## rocflag start
-hw3-auto_url = "https://gist.githubusercontent.com/mdecourse/2f56974a40da7a218dbaef376a5b4ca4/raw/0e2ca81d5c2539c4b6c86071c8cf9de0b1251b9c/roc_flag.py"
+################################## hw3-auto start
+hw3-auto_url = https://gist.githubusercontent.com/YHY30678/429f056ae4e53d500adc85fb8d89c75f/raw/d095c5a3f8bf6628e36c156ed4d41e1af2459cf9/auto%2520snake.py"
 hw3-auto = button2(hw3-auto_url)
 doc["hw3-auto"].bind("click", hw3-auto.do)
-################################## rocflag end
+##################################hw3-auto end
+################################## hw3-man control start
+hw3-man control_url = https://gist.githubusercontent.com/YHY30678/676092fdc380b3e045ed0a0d6e201582/raw/30f4df06658a5efa3a6ead8635cb56571a88eba2/man%2520control%2520snake.py"
+hw3-man control = button2(hw3-man control_url)
+doc["hw3-man control"].bind('click', hw3-man control.do)
+################################## hw3-man contro end
 </script>
 </p><h2>type</h2>
 <div>
